@@ -15,11 +15,23 @@
         padding-bottom: 40px;
       }
 
-      .hero-unit > img {
-        width: 820px;
-        height: 370px;
+      .hero-unit {
+        width: auto;
+        height: 330px;
+        padding: 60px;
+        margin-bottom: 30px;
+        background-image: url(../assets/img/ps_images/ps_splash.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
       }
-
+      
+      .btnDownload {
+        width: 150px;
+        height: 75px;
+        top: 75%;
+        left: 41%;
+        position: relative;
+      }
       .carousel .item > img {
         width: auto;
         height: 250px;
@@ -58,9 +70,9 @@
           <a class="brand" href="#">Portfolio</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">Penguin Slap</a></li>
-              <li><a href="#contact">Arithmetects</a></li>
+              <li class="active"><a href="Penguin Slap">Penguin Slap</a></li>
+              <li><a href="#Arithmetects">Arithmetects</a></li>
+              <li><a href="#A Small Journey">A Small Journey</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -68,49 +80,45 @@
     </div>
 
     <div class="container">
-
       <!-- Penguin Slap title card and description -->
       <div class="hero-unit">
-        <img src="../assets/img/ps_images/ps_splash.jpg">
+          <button class="btnDownload btn-large btn-success" type="button" onclick="location.href='http://www.windowsphone.com/en-us/store/app/penguin-slap/53819f30-1379-e011-986b-78e7d1fa76f8'">Download</button>
       </div>
 
     <hr>
-
       <!-- Video 1 with description -->
       <div class="row">
           <div class="span4">
-            <h2>Testing 1</h1>
+            <h2>Original Trailer</h1>
             <p>
               <!-- Text goes here -->
             </p>
           </div>
           <div class="span8">
-            <iframe width="620" height="338" src="http://www.youtube.com/embed/2wSbSP1w0oo" frameborder="0" allowfullscreen></iframe>
+            <iframe width="620" height="330" src="http://www.youtube.com/embed/2wSbSP1w0oo" frameborder="0" allowfullscreen></iframe>
           </div>
       </div>
       <!-- Video 1 with description -->
     <hr>
-
       <!-- Video 2 with description -->
       <div class="row">
           <div class="span4">
-            <h2>Testing 2</h1>
+            <h2>Gameplay v1.3</h1>
             <p>
               <!-- Text goes here -->
             </p>
           </div>
           <div class="span8">
-            <iframe width="620" height="338" src="http://www.youtube.com/embed/2wSbSP1w0oo" frameborder="0" allowfullscreen></iframe>
+            <iframe width="620" height="330" src="http://www.youtube.com/embed/2wSbSP1w0oo" frameborder="0" allowfullscreen></iframe>
           </div>
       </div>
       <!-- Video 2 with description -->
     <hr>
-
-
       <!-- Screenshots for this page -->
       <div class="row">
         <div class="span8 offset2">
           <div id="slider" class="carousel slide">
+            <center><h2>Screenshots</h2></center>
             <div class="carousel-inner">
               <!-- Item 1 -->
               <div class="item active">
@@ -160,9 +168,8 @@
 
     </div> <!-- /container -->
 
-    <!-- Le javascript
+    <!-- Javascript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap-transition.js"></script>
     <script src="../assets/js/bootstrap-alert.js"></script>
